@@ -214,7 +214,7 @@ local Vehicles = {
     { model = 'btype2',        name = 'Franken Stange',                brand = 'Albany',          price = 87000,   category = 'sportsclassics', type = 'automobile', shop = 'pdm' },
     { model = 'btype3',        name = 'Roosevelt Valor',               brand = 'Albany',          price = 63000,   category = 'sportsclassics', type = 'automobile', shop = 'pdm' },
     { model = 'casco',         name = 'Casco',                         brand = 'Lampadati',       price = 100000,  category = 'sportsclassics', type = 'automobile', shop = 'pdm' },
-    { model = 'deluxo',        name = 'Deluxo',                        brand = 'Imponte',         price = 55000,   category = 'sportsclassics', type = 'automobile', shop = 'pdm' },
+    -- { model = 'deluxo',        name = 'Deluxo',                        brand = 'Imponte',         price = 55000,   category = 'sportsclassics', type = 'automobile', shop = 'pdm' },
     { model = 'dynasty',       name = 'Dynasty',                       brand = 'Weeny',           price = 25000,   category = 'sportsclassics', type = 'automobile', shop = 'pdm' },
     { model = 'fagaloa',       name = 'Fagaloa',                       brand = 'Vulcar',          price = 13000,   category = 'sportsclassics', type = 'automobile', shop = 'pdm' },
     { model = 'feltzer3',      name = 'Stirling GT',                   brand = 'Benefactor',      price = 115000,  category = 'sportsclassics', type = 'automobile', shop = 'pdm' },

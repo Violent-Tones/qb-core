@@ -1,16 +1,16 @@
 QBShared = QBShared or {}
 QBShared.ForceJobDefaultDutyAtLogin = true -- true: Force duty state to jobdefaultDuty | false: set duty state from database last saved
 QBShared.Jobs = {
-	unemployed = { label = 'Civilian', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Freelancer', payment = 10 } } },
-	bus = { label = 'Bus', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
-	judge = { label = 'Honorary', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Judge', payment = 100 } } },
-	lawyer = { label = 'Law Firm', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Associate', payment = 50 } } },
-	reporter = { label = 'Reporter', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Journalist', payment = 50 } } },
-	trucker = { label = 'Trucker', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
-	tow = { label = 'Towing', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
-	garbage = { label = 'Garbage', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Collector', payment = 50 } } },
-	vineyard = { label = 'Vineyard', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Picker', payment = 50 } } },
-	hotdog = { label = 'Hotdog', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Sales', payment = 50 } } },
+	unemployed = { label = 'Unemployed', defaultDuty = true, offDutyPay = true, grades = { ['0'] = { name = 'Freelancer', payment = 10 } } },
+	bus = { label = 'Bus', defaultDuty = false, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
+	judge = { label = 'Honorary', defaultDuty = false, offDutyPay = false, grades = { ['0'] = { name = 'Judge', payment = 100 } } },
+	lawyer = { label = 'Law Firm', defaultDuty = false, offDutyPay = false, grades = { ['0'] = { name = 'Associate', payment = 50 } } },
+	reporter = { label = 'Reporter', defaultDuty = false, offDutyPay = false, grades = { ['0'] = { name = 'Journalist', payment = 50 } } },
+	trucker = { label = 'Trucker', defaultDuty = false, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
+	tow = { label = 'Towing', defaultDuty = false, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
+	garbage = { label = 'Garbage', defaultDuty = false, offDutyPay = false, grades = { ['0'] = { name = 'Collector', payment = 50 } } },
+	vineyard = { label = 'Vineyard', defaultDuty = false, offDutyPay = false, grades = { ['0'] = { name = 'Picker', payment = 50 } } },
+	hotdog = { label = 'Hotdog', defaultDuty = false, offDutyPay = false, grades = { ['0'] = { name = 'Sales', payment = 50 } } },
 
 	police = {
 		label = 'Law Enforcement',
@@ -137,6 +137,35 @@ QBShared.Jobs = {
 			['2'] = { name = 'Experienced', payment = 100 },
 			['3'] = { name = 'Advanced', payment = 125 },
 			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+		},
+	},
+	-- Chihuahua Hotdogs
+	chihuahua = {
+		label = 'Chihuahua Hotdogs Wiener Wrangler',
+		defaultDuty = false,
+		offDutyPay = false,
+		grades = {
+			['0'] = {
+				name = 'Trainee',
+				payment = 95
+			},
+			['1'] = {
+				name = 'Team Member',
+				payment = 150
+			},
+			['2'] = {
+				name = 'Shift Lead',
+				payment = 205
+			},
+			['3'] = {
+				name = 'Assistant Manager',
+				payment = 315
+			},
+			['4'] = {
+				name = 'Manager',
+				isboss = true,
+				payment = 450
+			},
 		},
 	},
 }
