@@ -168,4 +168,21 @@ QBShared.Jobs = {
 			},
 		},
 	},
+
+	-- Vanilla Unicorn
+	unicorn = {
+		label = 'Vanilla Unicorn',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = {
+				name = 'Stripper in Training',
+				payment = 150,
+			},
+			['1'] = {
+				name = 'Stripper',
+				payment = 250,
+			}
+		},
+	},
 }

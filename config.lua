@@ -63,6 +63,7 @@ QBConfig.Player.PlayerDefaults = {
     metadata = {
         hunger = 100,
         thirst = 100,
+        hygiene = 100,
         stress = 0,
         isdead = false,
         inlaststand = false,

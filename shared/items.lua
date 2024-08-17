@@ -232,6 +232,27 @@ QBShared.Items = {
     snikkel_candy                = { name = 'snikkel_candy', label = 'Snikkel', weight = 100, type = 'item', image = 'snikkel_candy.png', unique = false, useable = true, shouldClose = true, description = 'Some delicious candy :O' },
     sandwich                     = { name = 'sandwich', label = 'Sandwich', weight = 200, type = 'item', image = 'sandwich.png', unique = false, useable = true, shouldClose = true, description = 'Nice bread for your stomach' },
 
+        -- Hotdog job foods
+    raw_wiener                   = { name = 'raw_wiener', label = 'Raw Wiener', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    grilled_wiener               = { name = 'grilled_wiener', label = 'Grilled Wiener', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    raw_bacon                    = { name = 'raw_bacon', label = 'Raw Bacon', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    raw_bacon_wiener             = { name = 'raw_bacon_wiener', label = 'Raw Bacon Wrapped Wiener', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    grilled_bacon_wiener         = { name = 'grilled_bacon_wiener', label = 'Grilled Bacon Wrapped Wiener', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    hotdog_bun                   = { name = 'hotdog_bun', label = 'Hotdog Bun', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    hotdog_plain                 = { name = 'hotdog_plain', label = 'Plain Hotdog', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    hotdog_bacon_plain           = { name = 'hotdog_bacon_plain', label = 'Plain Bacon Hotdog', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    hotdog_tijuana               = { name = 'hotdog_tijuana', label = 'Tijuana Hotdog', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    hotdog_classic               = { name = 'hotdog_classic', label = 'Classic Hotdog', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    hotdog_chicago               = { name = 'hotdog_chicago', label = 'Chicago Hotdog', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    raw_onion                    = { name = 'raw_onion', label = 'Raw Onion', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    sliced_onion                 = { name = 'sliced_onion', label = 'Raw Sliced Onions', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    sliced_onion_grilled         = { name = 'sliced_onion_grilled', label = 'Grilled Sliced Onions', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    diced_onion                  = { name = 'diced_onion', label = 'Raw Diced Onions', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    raw_tomato                   = { name = 'raw_tomato', label = 'Tomato', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    sliced_tomato                = { name = 'sliced_tomato', label = 'Sliced Tomatos', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    pickle                       = { name = 'pickle', label = 'Pickle', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+    pickle_spear                 = { name = 'pickle_spear', label = 'Raw Wiener', weight = 1, type = 'item', image = '', unique = false, useable = true, shouldClose = true, description = '' },
+
     -- Drink ITEMS
     water_bottle                 = { name = 'water_bottle', label = 'Bottle of Water', weight = 500, type = 'item', image = 'water_bottle.png', unique = false, useable = true, shouldClose = true, description = 'For all the thirsty out there' },
     coffee                       = { name = 'coffee', label = 'Coffee', weight = 200, type = 'item', image = 'coffee.png', unique = false, useable = true, shouldClose = true, description = 'Pump 4 Caffeine' },
@@ -258,12 +279,6 @@ QBShared.Items = {
     rolling_paper                = { name = 'rolling_paper', label = 'Rolling Paper', weight = 0, type = 'item', image = 'rolling_paper.png', unique = false, useable = false, shouldClose = true, description = 'Paper made specifically for encasing and smoking tobacco or cannabis.' },
 
     -- Seed And Weed
-    weed_whitewidow              = { name = 'weed_whitewidow', label = 'White Widow 2g', weight = 200, type = 'item', image = 'weed_baggy.png', unique = false, useable = true, shouldClose = false, description = 'A weed bag with 2g White Widow' },
-    weed_skunk                   = { name = 'weed_skunk', label = 'Skunk 2g', weight = 200, type = 'item', image = 'weed_baggy.png', unique = false, useable = true, shouldClose = false, description = 'A weed bag with 2g Skunk' },
-    weed_purplehaze              = { name = 'weed_purplehaze', label = 'Purple Haze 2g', weight = 200, type = 'item', image = 'weed_baggy.png', unique = false, useable = true, shouldClose = false, description = 'A weed bag with 2g Purple Haze' },
-    weed_ogkush                  = { name = 'weed_ogkush', label = 'OGKush 2g', weight = 200, type = 'item', image = 'weed_baggy.png', unique = false, useable = true, shouldClose = false, description = 'A weed bag with 2g OG Kush' },
-    weed_amnesia                 = { name = 'weed_amnesia', label = 'Amnesia 2g', weight = 200, type = 'item', image = 'weed_baggy.png', unique = false, useable = true, shouldClose = false, description = 'A weed bag with 2g Amnesia' },
-    weed_ak47                    = { name = 'weed_ak47', label = 'AK47 2g', weight = 200, type = 'item', image = 'weed_baggy.png', unique = false, useable = true, shouldClose = false, description = 'A weed bag with 2g AK47' },
     weed_whitewidow_seed         = { name = 'weed_whitewidow_seed', label = 'White Widow Seed', weight = 0, type = 'item', image = 'weed_seed.png', unique = false, useable = true, shouldClose = false, description = 'A weed seed of White Widow' },
     weed_skunk_seed              = { name = 'weed_skunk_seed', label = 'Skunk Seed', weight = 0, type = 'item', image = 'weed_seed.png', unique = false, useable = true, shouldClose = true, description = 'A weed seed of Skunk' },
     weed_purplehaze_seed         = { name = 'weed_purplehaze_seed', label = 'Purple Haze Seed', weight = 0, type = 'item', image = 'weed_seed.png', unique = false, useable = true, shouldClose = true, description = 'A weed seed of Purple Haze' },
